@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "lint": "pnpm -r --if-present --parallel run lint",
+    "lint-fix": "npm -r --if-present --parallel run lint-fix"
+  }
+}
