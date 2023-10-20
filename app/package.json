@@ -17,12 +17,12 @@
   },
   "dependencies": {
     "@astrojs/node": "^6.0.3",
-    "astro": "^3.3.1"
+    "astro": "^3.3.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
-    "eslint": "^8.51.0",
+    "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-astro": "^0.29.1",
     "eslint-plugin-jsx-a11y": "^6.7.1",
