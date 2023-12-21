@@ -11,11 +11,11 @@ importers:
   app:
     dependencies:
       '@astrojs/node':
-        specifier: ^7.0.1
-        version: 7.0.1(astro@4.0.6)
+        specifier: ^7.0.2
+        version: 7.0.2(astro@4.0.7)
       astro:
-        specifier: ^4.0.6
-        version: 4.0.6(typescript@5.3.3)
+        specifier: ^4.0.7
+        version: 4.0.7(typescript@5.3.3)
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.15.0
@@ -120,12 +120,12 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/node@7.0.1(astro@4.0.6):
-    resolution: {integrity: sha512-jzO5q1t/cwDZQHcPG0CakjPY0SC44kbGgDDoh4UurvzZcCDYQKLz6zzJVqzUiOtDhfSwVrgHoiKo2tNbXASlRQ==}
+  /@astrojs/node@7.0.2(astro@4.0.7):
+    resolution: {integrity: sha512-g07KV9JBbUubfzLyu2ql+zu09dW3a7zVX1fDr6UriQdz6BvPh0Y0Qn+DqA5P8JwSKAw93mJDuChDW7JrI7CBJg==}
     peerDependencies:
       astro: ^4.0.0
     dependencies:
-      astro: 4.0.6(typescript@5.3.3)
+      astro: 4.0.7(typescript@5.3.3)
       send: 0.18.0
       server-destroy: 1.0.1
     transitivePeerDependencies:
@@ -1262,8 +1262,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro@4.0.6(typescript@5.3.3):
-    resolution: {integrity: sha512-P7CfFqWKzkJozzF6IoOC6qoI2ONndV8P3ULhGDgMiXPL7xVkWI5haTBSpyrcjBx643tVXspIRsSV/v+Cx+CjGw==}
+  /astro@4.0.7(typescript@5.3.3):
+    resolution: {integrity: sha512-K+Ms2AAQvi6yERPuglcI69tnHyTT44JCjzqprSjw3uOwFX7N9obpLgbhmLMH1fPFTgzt3ZD7APjmtDPN51makw==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1308,7 +1308,7 @@ packages:
       mime: 3.0.0
       ora: 7.0.1
       p-limit: 5.0.0
-      p-queue: 7.4.1
+      p-queue: 8.0.1
       path-to-regexp: 6.2.1
       preferred-pm: 3.1.2
       probe-image-size: 7.2.3
@@ -3927,17 +3927,17 @@ packages:
     dependencies:
       p-limit: 3.1.0
 
-  /p-queue@7.4.1:
-    resolution: {integrity: sha512-vRpMXmIkYF2/1hLBKisKeVYJZ8S2tZ0zEAmIJgdVKP2nq0nh4qCdf8bgw+ZgKrkh71AOCaqzwbJJk1WtdcF3VA==}
-    engines: {node: '>=12'}
+  /p-queue@8.0.1:
+    resolution: {integrity: sha512-NXzu9aQJTAzbBqOt2hwsR63ea7yvxJc0PwN/zobNAudYfb1B7R08SzB4TsLeSbUCuG467NhnoT0oO6w1qRO+BA==}
+    engines: {node: '>=18'}
     dependencies:
       eventemitter3: 5.0.1
-      p-timeout: 5.1.0
+      p-timeout: 6.1.2
     dev: false
 
-  /p-timeout@5.1.0:
-    resolution: {integrity: sha512-auFDyzzzGZZZdHz3BtET9VEz0SE/uMEAx7uWfGPucfzEwwe/xH0iVeZibQmANYE/hp9T2+UUZT5m+BKyrDp3Ew==}
-    engines: {node: '>=12'}
+  /p-timeout@6.1.2:
+    resolution: {integrity: sha512-UbD77BuZ9Bc9aABo74gfXhNvzC9Tx7SxtHSh1fxvx3jTLLYvmVhiQZZrJzqqU0jKbN32kb5VOKiLEQI/3bIjgQ==}
+    engines: {node: '>=14.16'}
     dev: false
 
   /p-try@2.2.0:
