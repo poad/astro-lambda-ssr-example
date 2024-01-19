@@ -6,8 +6,17 @@ on:
       - main
 
 permissions:
+  actions: read
+  checks: write
+  contents: write
+  deployments: none
   id-token: write
-  contents: read
+  issues: none
+  packages: none
+  pull-requests: write
+  repository-projects: read
+  security-events: write
+  statuses: write
 
 jobs:
   configure:
