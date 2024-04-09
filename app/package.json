@@ -8,21 +8,21 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "eslint-check": "eslint .",
-    "eslint-fix": "eslint --fix .",
-    "prettier-check": "prettier .",
-    "prettier-fix": "prettier --write .",
-    "lint": "pnpm --parallel run /^[e,p].+-check/",
-    "lint-fix": "pnpm run /^[e,p].+-fix/"
+    "eslint:check": "eslint .",
+    "eslint:fix": "eslint --fix .",
+    "prettier:check": "prettier .",
+    "prettier:fix": "prettier --write .",
+    "lint": "pnpm --parallel run /^.+:check$/",
+    "lint-fix": "pnpm run /^.+:fix$/"
   },
   "dependencies": {
     "@astrojs/node": "^8.2.5",
-    "astro": "^4.5.16"
+    "astro": "^4.5.17"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.5.0",
-    "@typescript-eslint/parser": "^7.5.0",
-    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-astro": "^0.33.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
