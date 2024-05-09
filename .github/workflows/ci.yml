@@ -22,15 +22,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: pnpm/action-setup@v4
-      name: Install pnpm
-      id: pnpm-install
-      with:
-        run_install: |
-          - recursive: true
-            args: [--no-frozen-lockfile]
-          - args: [--global, aws-cdk]
-
     - name: Use Node.js 20.x
       uses: actions/setup-node@v4
       with:
@@ -38,5 +29,14 @@ jobs:
         check-latest: true
         cache: pnpm
 
+    - uses: pnpm/action-setup@v4
+      name: Install pnpm
+      id: pnpm-install
+      with:
+        run_install: |
+          - recursive: true
+            args: [--no-frozen-lockfile]
+          - args: [--global, aws-cdk]  
+      
     - name: build
       run: pnpm -r --parallel --if-present lint
