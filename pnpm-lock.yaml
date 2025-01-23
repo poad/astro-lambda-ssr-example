@@ -11,11 +11,11 @@ importers:
   app:
     dependencies:
       '@astrojs/node':
-        specifier: ^9.0.1
-        version: 9.0.1(astro@5.1.8(@types/node@22.10.7)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3))
+        specifier: ^9.0.2
+        version: 9.0.2(astro@5.1.8(@types/node@22.10.9)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3))
       astro:
         specifier: ^5.1.8
-        version: 5.1.8(@types/node@22.10.7)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3)
+        version: 5.1.8(@types/node@22.10.9)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3)
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.21.0
@@ -61,14 +61,14 @@ importers:
         version: 0.5.21
     devDependencies:
       '@types/node':
-        specifier: ^22.10.7
-        version: 22.10.7
+        specifier: ^22.10.9
+        version: 22.10.9
       aws-cdk:
         specifier: ^2.176.0
         version: 2.176.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.10.7)(typescript@5.7.3)
+        version: 10.9.2(@types/node@22.10.9)(typescript@5.7.3)
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -84,8 +84,8 @@ packages:
   '@astrojs/markdown-remark@6.0.2':
     resolution: {integrity: sha512-aAoHGVRK3rebCYbaLjyyR+3VeAuTz4q49syUxJP29Oo5yZHdy4cCAXRqLBdr9mJVlxCUUjZiF0Dau6YBf65SGg==}
 
-  '@astrojs/node@9.0.1':
-    resolution: {integrity: sha512-vIKmKYhzK9o3NXANkHyjcFqi9e9N84mhgCESC/+rQ8danWnktu9uR6rGvbj3bdTb9+Dn5LDsmEm123P2Cun9nQ==}
+  '@astrojs/node@9.0.2':
+    resolution: {integrity: sha512-MFFYRa5yQEBegKrSUPMeKnjDMB4okTrkVRA40/mU3ADKrKY5VV3af0LS+NYkH9pFOvj/OsPbdeQVxQ0jI3f6aQ==}
     peerDependencies:
       astro: ^5.0.0
 
@@ -635,8 +635,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.10.7':
-    resolution: {integrity: sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==}
+  '@types/node@22.10.9':
+    resolution: {integrity: sha512-Ir6hwgsKyNESl/gLOcEz3krR4CBGgliDqBQ2ma4wIhEx0w+xnoeTq3tdrNw15kU3SxogDjOgv9sqdtLW8mIHaw==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -2631,9 +2631,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/node@9.0.1(astro@5.1.8(@types/node@22.10.7)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3))':
+  '@astrojs/node@9.0.2(astro@5.1.8(@types/node@22.10.9)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3))':
     dependencies:
-      astro: 5.1.8(@types/node@22.10.7)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3)
+      astro: 5.1.8(@types/node@22.10.9)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3)
       send: 1.1.0
       server-destroy: 1.0.1
     transitivePeerDependencies:
@@ -3047,7 +3047,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@22.10.7':
+  '@types/node@22.10.9':
     dependencies:
       undici-types: 6.20.0
 
@@ -3241,7 +3241,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@5.1.8(@types/node@22.10.7)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3):
+  astro@5.1.8(@types/node@22.10.9)(jiti@2.4.2)(rollup@4.31.0)(typescript@5.7.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.2
@@ -3293,8 +3293,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.14.4
       vfile: 6.0.3
-      vite: 6.0.11(@types/node@22.10.7)(jiti@2.4.2)
-      vitefu: 1.0.5(vite@6.0.11(@types/node@22.10.7)(jiti@2.4.2))
+      vite: 6.0.11(@types/node@22.10.9)(jiti@2.4.2)
+      vitefu: 1.0.5(vite@6.0.11(@types/node@22.10.9)(jiti@2.4.2))
       which-pm: 3.0.0
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
@@ -5285,14 +5285,14 @@ snapshots:
     dependencies:
       typescript: 5.7.3
 
-  ts-node@10.9.2(@types/node@22.10.7)(typescript@5.7.3):
+  ts-node@10.9.2(@types/node@22.10.9)(typescript@5.7.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.10.7
+      '@types/node': 22.10.9
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -5459,19 +5459,19 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.0.11(@types/node@22.10.7)(jiti@2.4.2):
+  vite@6.0.11(@types/node@22.10.9)(jiti@2.4.2):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.1
       rollup: 4.31.0
     optionalDependencies:
-      '@types/node': 22.10.7
+      '@types/node': 22.10.9
       fsevents: 2.3.3
       jiti: 2.4.2
 
-  vitefu@1.0.5(vite@6.0.11(@types/node@22.10.7)(jiti@2.4.2)):
+  vitefu@1.0.5(vite@6.0.11(@types/node@22.10.9)(jiti@2.4.2)):
     optionalDependencies:
-      vite: 6.0.11(@types/node@22.10.7)(jiti@2.4.2)
+      vite: 6.0.11(@types/node@22.10.9)(jiti@2.4.2)
 
   web-namespaces@2.0.1: {}
 
