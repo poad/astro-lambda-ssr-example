@@ -12,17 +12,17 @@ importers:
   .:
     devDependencies:
       pnpm:
-        specifier: ^10.3.0
-        version: 10.3.0
+        specifier: ^10.4.0
+        version: 10.4.0
 
   app:
     dependencies:
       '@astrojs/node':
         specifier: ^9.1.0
-        version: 9.1.0(astro@5.3.0(@types/node@22.13.2)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3))
+        version: 9.1.0(astro@5.3.0(@types/node@22.13.4)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3))
       astro:
         specifier: ^5.3.0
-        version: 5.3.0(@types/node@22.13.2)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3)
+        version: 5.3.0(@types/node@22.13.4)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3)
     devDependencies:
       eslint:
         specifier: ^9.20.1
@@ -65,14 +65,14 @@ importers:
         version: 0.5.21
     devDependencies:
       '@types/node':
-        specifier: ^22.13.2
-        version: 22.13.2
+        specifier: ^22.13.4
+        version: 22.13.4
       aws-cdk:
         specifier: ^2.178.2
         version: 2.178.2
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.13.2)(typescript@5.7.3)
+        version: 10.9.2(@types/node@22.13.4)(typescript@5.7.3)
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -643,8 +643,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.13.2':
-    resolution: {integrity: sha512-Z+r8y3XL9ZpI2EY52YYygAFmo2/oWfNSj4BCpAXE2McAexDk8VcnBMGC9Djn9gTKt4d2T/hhXqmPzo4hfIXtTg==}
+  '@types/node@22.13.4':
+    resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1957,8 +1957,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  pnpm@10.3.0:
-    resolution: {integrity: sha512-7lku2ogVqKKTwga7CRfEuw/ydMUN73y8F74F7GQfwtGwJJDOZgBhNWvQ0Sak1+suyIMOaVn7ikR1ccYx1aJELQ==}
+  pnpm@10.4.0:
+    resolution: {integrity: sha512-a4SdB4fZf49OHwOpuP+PA4554VPW8RrlOa58Q1/555bfaoYsmRUCaVx/no+siur8GsWo2rR+NhSNGDgy2IbdUg==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2634,10 +2634,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/node@9.1.0(astro@5.3.0(@types/node@22.13.2)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3))':
+  '@astrojs/node@9.1.0(astro@5.3.0(@types/node@22.13.4)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3))':
     dependencies:
       '@astrojs/internal-helpers': 0.5.1
-      astro: 5.3.0(@types/node@22.13.2)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3)
+      astro: 5.3.0(@types/node@22.13.4)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3)
       send: 1.1.0
       server-destroy: 1.0.1
     transitivePeerDependencies:
@@ -3055,7 +3055,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@22.13.2':
+  '@types/node@22.13.4':
     dependencies:
       undici-types: 6.20.0
 
@@ -3245,7 +3245,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@5.3.0(@types/node@22.13.2)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3):
+  astro@5.3.0(@types/node@22.13.4)(jiti@2.4.2)(rollup@4.34.6)(typescript@5.7.3):
     dependencies:
       '@astrojs/compiler': 2.10.4
       '@astrojs/internal-helpers': 0.5.1
@@ -3297,8 +3297,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.14.4
       vfile: 6.0.3
-      vite: 6.1.0(@types/node@22.13.2)(jiti@2.4.2)
-      vitefu: 1.0.5(vite@6.1.0(@types/node@22.13.2)(jiti@2.4.2))
+      vite: 6.1.0(@types/node@22.13.4)(jiti@2.4.2)
+      vitefu: 1.0.5(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2))
       which-pm: 3.0.1
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
@@ -4812,7 +4812,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  pnpm@10.3.0: {}
+  pnpm@10.4.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -5276,14 +5276,14 @@ snapshots:
     dependencies:
       typescript: 5.7.3
 
-  ts-node@10.9.2(@types/node@22.13.2)(typescript@5.7.3):
+  ts-node@10.9.2(@types/node@22.13.4)(typescript@5.7.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.13.2
+      '@types/node': 22.13.4
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -5452,19 +5452,19 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.1.0(@types/node@22.13.2)(jiti@2.4.2):
+  vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2):
     dependencies:
       esbuild: 0.25.0
       postcss: 8.5.2
       rollup: 4.34.6
     optionalDependencies:
-      '@types/node': 22.13.2
+      '@types/node': 22.13.4
       fsevents: 2.3.3
       jiti: 2.4.2
 
-  vitefu@1.0.5(vite@6.1.0(@types/node@22.13.2)(jiti@2.4.2)):
+  vitefu@1.0.5(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)):
     optionalDependencies:
-      vite: 6.1.0(@types/node@22.13.2)(jiti@2.4.2)
+      vite: 6.1.0(@types/node@22.13.4)(jiti@2.4.2)
 
   web-namespaces@2.0.1: {}
 
