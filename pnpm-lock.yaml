@@ -12,8 +12,8 @@ importers:
   .:
     devDependencies:
       pnpm:
-        specifier: ^10.5.0
-        version: 10.5.0
+        specifier: ^10.5.2
+        version: 10.5.2
 
   app:
     dependencies:
@@ -28,8 +28,8 @@ importers:
         specifier: ^9.21.0
         version: 9.21.0(jiti@2.4.2)
       eslint-config-prettier:
-        specifier: ^10.0.1
-        version: 10.0.1(eslint@9.21.0(jiti@2.4.2))
+        specifier: ^10.0.2
+        version: 10.0.2(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-astro:
         specifier: ^1.3.1
         version: 1.3.1(eslint@9.21.0(jiti@2.4.2))
@@ -38,7 +38,7 @@ importers:
         version: 6.10.2(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-prettier:
         specifier: ^5.2.3
-        version: 5.2.3(eslint-config-prettier@10.0.1(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2)
+        version: 5.2.3(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2)
       prettier:
         specifier: ^3.5.2
         version: 3.5.2
@@ -55,8 +55,8 @@ importers:
   cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.180.0
-        version: 2.180.0(constructs@10.4.2)
+        specifier: ^2.181.0
+        version: 2.181.0(constructs@10.4.2)
       constructs:
         specifier: ^10.4.2
         version: 10.4.2
@@ -68,8 +68,8 @@ importers:
         specifier: ^22.13.5
         version: 22.13.5
       aws-cdk:
-        specifier: ^2.1000.3
-        version: 2.1000.3
+        specifier: ^2.1001.0
+        version: 2.1001.0
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.13.5)(typescript@5.7.3)
@@ -794,8 +794,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.180.0:
-    resolution: {integrity: sha512-ncYx3MGcLL397WAg6LOHV8G/5d0FkdoskiUscqFawLWioK75f0M6AIuif9kxrxLBvbMOncOfqhV8wIsCM1fquA==}
+  aws-cdk-lib@2.181.0:
+    resolution: {integrity: sha512-W95HRgahebHQdXwGTIvJydc33JG4NBIKpzoNFS17pmfX3nauxa7o4YPTJHHjQwv7A5LNQotuF7QilpN5PlQFzg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -812,8 +812,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1000.3:
-    resolution: {integrity: sha512-y0sU603gGWpVTwqDw9MKVHg3e1t49Mvve6t3YDOvjeKY195Vu6dgHlHjW4h8n1vX04r49NKfpoApG60V8sMbdw==}
+  aws-cdk@2.1001.0:
+    resolution: {integrity: sha512-Wp6fKNXcxBm+f8U1GkLV4gEgqq1pu5uwyDCMBg7ZB/6CtP+PsD/mPhuKyMULNWucDvYN8oy70XLOkMnxa3NWFw==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -1124,8 +1124,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-config-prettier@10.0.1:
-    resolution: {integrity: sha512-lZBts941cyJyeaooiKxAtzoPHTN+GbQTJFAIdQbRhA4/8whaAraEh47Whw/ZFfrjNSnlAxqfm9i0XVAEkULjCw==}
+  eslint-config-prettier@10.0.2:
+    resolution: {integrity: sha512-1105/17ZIMjmCOJOPNfVdbXafLCLj3hPmkmB7dLgt7XsQ/zkxSuDerE/xgO3RxoHysR1N1whmquY0lSn2O0VLg==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1235,8 +1235,8 @@ packages:
   fast-levenshtein@2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  fastq@1.19.0:
-    resolution: {integrity: sha512-7SFSRCNjBQIZH/xZR3iy5iQYR8aGBE0h3VG6/cwlbrpdciNYBMotQav8c1XI3HjHH+NikUpP53nPdlZSdWmFzA==}
+  fastq@1.19.1:
+    resolution: {integrity: sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==}
 
   fdir@6.4.3:
     resolution: {integrity: sha512-PMXmW2y1hDDfTSRc9gaXIuCCRpuoz3Kaz8cUelp3smouvfT632ozg2vrT6lJsHKKOF59YLbOGfAWGUcKEfRMQw==}
@@ -1947,8 +1947,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  pnpm@10.5.0:
-    resolution: {integrity: sha512-ERBqWRbHQG/kuMuOMGeXS4co9HMIpPWsXoUDBK+m9X4oR9eVDf54h32NNr+0AdOBxCFds6TDVH/6Y8FDM6b6UQ==}
+  pnpm@10.5.2:
+    resolution: {integrity: sha512-2p3CjNP/QNBZIYgjWrJdMgKt2KIHr77caCIg5KACn/v/RWIQK55uRrTj+ei9U+bQXeSFRLDFfUsBeeIsdtEZmw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2078,8 +2078,8 @@ packages:
   retext@9.0.0:
     resolution: {integrity: sha512-sbMDcpHCNjvlheSgMfEcVrZko3cDzdbe1x/e7G66dFp0Ff7Mldvi2uv6JkJQzdRcvLYE8CA8Oe8siQx8ZOgTcA==}
 
-  reusify@1.0.4:
-    resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
+  reusify@1.1.0:
+    resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
   rollup@4.34.8:
@@ -2908,7 +2908,7 @@ snapshots:
   '@nodelib/fs.walk@1.2.8':
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.19.0
+      fastq: 1.19.1
 
   '@oslojs/encoding@1.1.0': {}
 
@@ -3344,14 +3344,14 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk-lib@2.180.0(constructs@10.4.2):
+  aws-cdk-lib@2.181.0(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.225
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 39.2.20
       constructs: 10.4.2
 
-  aws-cdk@2.1000.3:
+  aws-cdk@2.1001.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -3696,7 +3696,7 @@ snapshots:
       eslint: 9.21.0(jiti@2.4.2)
       semver: 7.7.1
 
-  eslint-config-prettier@10.0.1(eslint@9.21.0(jiti@2.4.2)):
+  eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.21.0(jiti@2.4.2)
 
@@ -3733,14 +3733,14 @@ snapshots:
       safe-regex-test: 1.1.0
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-prettier@5.2.3(eslint-config-prettier@10.0.1(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2):
+  eslint-plugin-prettier@5.2.3(eslint-config-prettier@10.0.2(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2):
     dependencies:
       eslint: 9.21.0(jiti@2.4.2)
       prettier: 3.5.2
       prettier-linter-helpers: 1.0.0
       synckit: 0.9.2
     optionalDependencies:
-      eslint-config-prettier: 10.0.1(eslint@9.21.0(jiti@2.4.2))
+      eslint-config-prettier: 10.0.2(eslint@9.21.0(jiti@2.4.2))
 
   eslint-scope@8.2.0:
     dependencies:
@@ -3840,9 +3840,9 @@ snapshots:
 
   fast-levenshtein@2.0.6: {}
 
-  fastq@1.19.0:
+  fastq@1.19.1:
     dependencies:
-      reusify: 1.0.4
+      reusify: 1.1.0
 
   fdir@6.4.3(picomatch@4.0.2):
     optionalDependencies:
@@ -4789,7 +4789,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  pnpm@10.5.0: {}
+  pnpm@10.5.2: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -4969,7 +4969,7 @@ snapshots:
       retext-stringify: 4.0.0
       unified: 11.0.5
 
-  reusify@1.0.4: {}
+  reusify@1.1.0: {}
 
   rollup@4.34.8:
     dependencies:
