@@ -16,8 +16,8 @@
     "lint-fix": "pnpm run /^.+:fix$/"
   },
   "dependencies": {
-    "@astrojs/node": "^9.1.1",
-    "astro": "^5.3.1"
+    "@astrojs/node": "^9.1.2",
+    "astro": "^5.4.0"
   },
   "devDependencies": {
     "eslint": "^9.21.0",
