@@ -19,10 +19,10 @@ importers:
     dependencies:
       '@astrojs/node':
         specifier: ^9.1.2
-        version: 9.1.2(astro@5.4.1(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2))
+        version: 9.1.2(astro@5.4.2(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2))
       astro:
-        specifier: ^5.4.1
-        version: 5.4.1(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2)
+        specifier: ^5.4.2
+        version: 5.4.2(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2)
     devDependencies:
       eslint:
         specifier: ^9.21.0
@@ -787,8 +787,8 @@ packages:
     resolution: {integrity: sha512-3oqANMjrvJ+IE5pwlUWsH/4UztmYf/GTL0HPUkWnYBNAHiGVGrOh2EbegxS5niAwlO0w9dRYk0CkCPlJcu8c3Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@5.4.1:
-    resolution: {integrity: sha512-z9BiBz8pV7pZVn1evZv/9bJil3A9UZNyEjDFH3IjD87ioz95HHGLgbjRbbqF1EwSy8JOLKlMNyuQPqjrX8xqWw==}
+  astro@5.4.2:
+    resolution: {integrity: sha512-9Z3fAniIRJaK/o43OroZA1wHUIU+qHiOR9ovlVT/2XQaN25QRXScIsKWlFp0G/zrx5OuuoJ+QnaoHHW061u26A==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2321,8 +2321,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  type-fest@4.36.0:
-    resolution: {integrity: sha512-3T/PUdKTCnkUmhQU6FFJEHsLwadsRegktX3TNHk+2JJB9HlA8gp1/VXblXVDI93kSnXF2rdPx0GMbHtJIV2LPg==}
+  type-fest@4.37.0:
+    resolution: {integrity: sha512-S/5/0kFftkq27FPNye0XM1e2NsnoD/3FS+pBmbjmmtLT6I+i344KoOf7pvXreaFsDamWeaJX55nczA1m5PsBDg==}
     engines: {node: '>=16'}
 
   typed-array-buffer@1.0.3:
@@ -2644,10 +2644,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/node@9.1.2(astro@5.4.1(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2))':
+  '@astrojs/node@9.1.2(astro@5.4.2(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2))':
     dependencies:
       '@astrojs/internal-helpers': 0.6.0
-      astro: 5.4.1(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2)
+      astro: 5.4.2(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2)
       send: 1.1.0
       server-destroy: 1.0.1
     transitivePeerDependencies:
@@ -3261,7 +3261,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@5.4.1(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2):
+  astro@5.4.2(@types/node@22.13.9)(jiti@2.4.2)(rollup@4.34.9)(typescript@5.8.2):
     dependencies:
       '@astrojs/compiler': 2.10.4
       '@astrojs/internal-helpers': 0.6.0
@@ -3397,7 +3397,7 @@ snapshots:
       chalk: 5.4.1
       cli-boxes: 3.0.0
       string-width: 7.2.0
-      type-fest: 4.36.0
+      type-fest: 4.37.0
       widest-line: 5.0.0
       wrap-ansi: 9.0.0
 
@@ -5311,7 +5311,7 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  type-fest@4.36.0: {}
+  type-fest@4.37.0: {}
 
   typed-array-buffer@1.0.3:
     dependencies:
