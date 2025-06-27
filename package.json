@@ -4,9 +4,9 @@
     "lint": "pnpm -r --if-present --parallel run lint",
     "lint-fix": "pnpm -r --if-present --parallel run lint-fix"
   },
-  "packageManager": "pnpm@10.12.3",
+  "packageManager": "pnpm@10.12.4",
   "devDependencies": {
-    "pnpm": "^10.12.3"
+    "pnpm": "^10.12.4"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
