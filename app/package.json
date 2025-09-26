@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@astrojs/node": "^9.4.4",
-    "astro": "^5.13.11"
+    "astro": "^5.14.0"
   },
   "devDependencies": {
     "eslint": "^9.36.0",
