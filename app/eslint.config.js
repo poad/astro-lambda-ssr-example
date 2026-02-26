@@ -1,6 +1,9 @@
 import astroPlugin from 'eslint-plugin-astro';
 
 export default [
+  {
+    ignores: ['dist'],
+  },
   ...astroPlugin.configs['flat/recommended'],
   {
     rules: {
