@@ -1,3 +1,6 @@
 packages:
   - ./app
   - ./cdk
+
+overrides:
+  svgo: '>=4.0.1'
