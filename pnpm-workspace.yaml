@@ -2,5 +2,9 @@ packages:
   - ./app
   - ./cdk
 
+allowBuilds:
+  esbuild: false
+  sharp: false
+
 overrides:
   svgo: '>=4.0.1'
