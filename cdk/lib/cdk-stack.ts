@@ -2,8 +2,6 @@ import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as assets from 'aws-cdk-lib/aws-ecr-assets';
-// import * as apigatewayv2 from '@aws-cdk/aws-apigatewayv2-alpha';
-// import * as integrations from '@aws-cdk/aws-apigatewayv2-integrations-alpha';
 import * as logs from 'aws-cdk-lib/aws-logs';
 interface CdkStackProps extends cdk.StackProps {
   name: string
