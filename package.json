@@ -4,5 +4,5 @@
     "lint": "pnpm -r --if-present --parallel run lint",
     "lint-fix": "pnpm -r --if-present --parallel run lint-fix"
   },
-  "packageManager": "pnpm@11.3.0"
+  "packageManager": "pnpm@11.6.0"
 }
