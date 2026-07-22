@@ -30,6 +30,9 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    ignore:
+      dependency-name: typescript
+      versions: ~7.0.0
     groups:
       infra:
         patterns:
