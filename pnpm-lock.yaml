@@ -204,13 +204,11 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
+  brace-expansion@<=5.0.7: ^5.0.8
   esbuild@>=0.17.0 <0.28.1: ^0.28.1
   esbuild@>=0.27.3 <0.28.1: ^0.28.1
   eslint-import-resolver-typescript: ^4.4.5
   semver: '>=7'
-  aws-cdk-lib: ^2.261.0
-  astro@>=2.9.0 <=7.0.9: ^7.0.10
-  brace-expansion@<=5.0.7: ^5.0.8
 
 importers:
 
@@ -358,7 +356,7 @@ packages:
   '@astrojs/node@11.0.2':
     resolution: {integrity: sha512-/ijULxT+A5Cm8wSwWZ2vgqfim1b05D6B8n/a9l6MMA4FCotIH73g7fL7y76XojKXpTe75FVvQH92OxsMqea9kQ==}
     peerDependencies:
-      astro: ^7.0.10
+      astro: ^7.0.0
 
   '@astrojs/prism@4.0.2':
     resolution: {integrity: sha512-KTivpmnz6lDsC6o9H4+DNm2SrE/GHzw8cNAvEJwAvUT+eoaEnn/4NtbDNfRRaxaJHdp15gf+tfHAWiXR4wB3BA==}
