@@ -19,9 +19,13 @@ jobs:
       with:
         persist-credentials: false
 
-    - uses: pnpm/setup@84cb39b217b10273981911c288cd62326dc7c6d2 # v2.0.2
-      name: Install pnpm
-      id: pnpm-install
+    - name: Setup pnpm
+      uses: pnpm/setup@84cb39b217b10273981911c288cd62326dc7c6d2 # v2.0.2
+      with:
+        install: false
+
+    - name: Install dependencies
+      run: pnpm install --no-frozen-lockfile
       
     - name: build
       run: pnpm -r --parallel --if-present lint
