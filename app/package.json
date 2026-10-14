@@ -8,10 +8,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prettier:check": "prettier .",
-    "prettier:fix": "prettier --write .",
-    "eslint:check": "eslint .",
-    "eslint:fix": "eslint --fix .",
+    "oxfmt:check": "oxfmt --check .",
+    "oxfmt:fix": "oxfmt .",
+    "oxlint:check": "oxlint .",
+    "oxlint:fix": "oxlint --fix .",
     "lint": "pnpm --parallel run /^.+:check$/",
     "lint-fix": "pnpm run /^.+:fix$/"
   },
@@ -20,14 +20,11 @@
     "astro": "^7.3.6"
   },
   "devDependencies": {
-    "eslint": "^10.12.0",
-    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-astro": "^3.2.1",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-prettier": "^5.5.6",
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0",
     "prettier": "^3.9.9",
     "prettier-plugin-astro": "^1.1.0",
-    "typescript": "^7.0.2",
-    "typescript-eslint": "^8.71.1"
+    "typescript": "^7.0.2"
   }
 }

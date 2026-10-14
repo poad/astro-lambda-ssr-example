@@ -4,7 +4,7 @@ import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as assets from 'aws-cdk-lib/aws-ecr-assets';
 import * as logs from 'aws-cdk-lib/aws-logs';
 interface CdkStackProps extends cdk.StackProps {
-  name: string
+  readonly name: string
 }
 
 export class CdkStack extends cdk.Stack {

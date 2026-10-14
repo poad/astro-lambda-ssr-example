@@ -8,11 +8,17 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "oxlint:check": "oxlint .",
+    "oxlint:fix": "oxlint --fix .",
+    "lint": "pnpm --parallel run /^.+:check$/",
+    "lint-fix": "pnpm run /^.+:fix$/"
   },
   "devDependencies": {
     "@types/node": "^26.6.4",
     "aws-cdk": "^2.1144.0",
+    "oxlint": "^1.87.0",
+    "oxlint-plugin-awscdk": "^1.0.3",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
